@@ -1,0 +1,17 @@
+//abstracts 
+@import "abstracts/variables" ;
+
+//base 
+@import "base/basic" ;
+@import "base/utilities" ;
+@import "base/animations" ;
+@import "base/typography" ;
+
+
+//components 
+
+// layout 
+@import "layout/header" ; 
+
+//pages 
+@import "pages/landing"

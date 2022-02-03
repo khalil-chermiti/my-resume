@@ -1,0 +1,76 @@
+// logo font
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem ;
+    color: $light-gray;
+}
+
+.link ,
+.link:active ,
+.link:visited {
+    text-decoration: none;
+    font-size: 1.6rem ;
+    color : white ;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.heading-primary {
+    font-size: 7rem;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: white;
+
+    animation: MoveDown 0.8s 1s ease;
+    animation-fill-mode: backwards;
+
+    span {
+        font-size: 7.5rem;
+    }
+
+    span:hover{
+        color: $primary-color;
+    }
+}
+
+.heading-secondary {
+    font-size: 5rem;
+    color: white;
+
+    animation: MoveToRight 0.8s ease;
+
+    span {
+        color : $primary-color ;
+    }
+}
+
+.heading-tertiary {
+    font-size: 3rem ;
+    color : white ;
+    position: relative;
+
+    animation: MoveToLeft 0.8s ease;
+
+    &::before{
+        content: "";
+        display: inline-block;
+        height: 1px ;
+        width: 4rem;
+        background-color: $primary-color;
+        position: absolute;
+        left: -5rem;
+        top: 2rem;
+    }
+    &::after{
+        content: "";
+        display: inline-block;
+        height: 1px ;
+        width: 4rem;
+        background-color: $primary-color;
+        position: absolute;
+        right: -5rem;
+        top: 2rem;
+    }
+}

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "serve": "live-server" , 
-    "watch": "node-sass sass/app.scss css.app.css -w" 
+    "watch": "node-sass sass/app.scss style/app.css -w" 
   },
   "author": "",
   "license": "ISC"
