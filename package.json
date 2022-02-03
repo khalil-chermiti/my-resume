@@ -1,0 +1,12 @@
+{
+  "name": "brandiclone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "live-server" , 
+    "watch": "node-sass sass/app.scss css.app.css -w" 
+  },
+  "author": "",
+  "license": "ISC"
+}
