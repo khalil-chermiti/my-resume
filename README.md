@@ -1,3 +1,5 @@
+CLICK HERE : https://khalil-chermiti.github.io/my-resume/
+
 how to get started : 
 
 1.intalling required packages
@@ -8,3 +10,4 @@ how to get started :
 
 3.run a liveserver 
 `npm serve`
+
