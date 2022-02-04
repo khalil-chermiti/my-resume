@@ -5,11 +5,15 @@
     min-height: 8vh;
     font-size: 1.6rem;
     justify-content: space-between;
+    flex-direction: row;
+    z-index: 1;
 
     position: fixed;
     top: 0;
     left: 0;
 
+    transition: all 0.4s ease;
+    
     &__logo {
         font-family: 'Mr Dafoe' ;
         font-size: 4rem;
@@ -18,7 +22,7 @@
         flex: 0 1 fit-content;
         padding-left: 10rem;
         color: $primary-color;
-        
+        transition: all 0.4s ease; 
     }
 
     &__navbar {

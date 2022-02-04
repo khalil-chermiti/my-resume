@@ -1,3 +1,26 @@
 .margin-bottom-s {
     margin-bottom: 2rem !important ;
 }
+
+.text-center {
+    text-align: center;
+}
+
+.auto-center {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-green {
+    background-color: $primary-color !important;
+}
+
+.color-white {
+    color : white !important;
+}

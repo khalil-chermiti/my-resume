@@ -1,0 +1,9 @@
+.cursor {
+    display: inline-block;
+    width: 2px;
+    height : 5.5rem ;
+    background-color : $primary-color ;
+
+    animation: blink 0.4s ease infinite;
+
+}

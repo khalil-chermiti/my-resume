@@ -51,7 +51,9 @@ body {
     color : white ;
     position: relative;
 
-    animation: MoveToLeft 0.8s ease;
+    &--animate {
+        animation: MoveToLeft 0.8s ease;
+    }
 
     &::before{
         content: "";
@@ -73,4 +75,18 @@ body {
         right: -5rem;
         top: 2rem;
     }
+}
+
+.h1 {
+    font-size: 3.5rem ;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right bottom , $primary-color , $primary-color-light);
+    transform: skewX(-10deg);
+    text-shadow: $text-shadow-1 ;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 1rem 0;
 }
